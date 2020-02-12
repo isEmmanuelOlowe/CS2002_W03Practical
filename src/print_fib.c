@@ -4,7 +4,7 @@
 void print_fib(void) {
   int n;
   printf("Length? ");
-  scanf_s("%d", &n);
+  scanf("%d", &n);
 
   printf("[");
   if (n >= 0) {
@@ -17,5 +17,5 @@ void print_fib(void) {
       }
     }
   }
-  printf("]");
+  printf("]\n");
 }
